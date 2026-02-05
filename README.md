@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @AllanFeosar
+- 👀 I’m interested in Full Stack development..
+- 🌱 I’m currently learning ...
+- 🏟 I’m looking to collaborate on .open source..
+- 📫 How to reach me allanredsky7@gmail.com or allan@ernstitsolution.com
