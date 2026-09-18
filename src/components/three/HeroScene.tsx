@@ -151,13 +151,11 @@ function CameraRig({ progress }: { progress: MotionValue<number> }) {
   const { camera, pointer } = useThree();
   useFrame(() => {
     const sceneP = THREE.MathUtils.clamp(progress.get(), 0, 1);
-    const sceneOpacityStart = 0.9;
     const targetZ = 8 - sceneP * 0.6;
     camera.position.x = THREE.MathUtils.lerp(camera.position.x, pointer.x * 0.4, 0.05);
     camera.position.y = THREE.MathUtils.lerp(camera.position.y, pointer.y * 0.25, 0.05);
     camera.position.z = THREE.MathUtils.lerp(camera.position.z, targetZ, 0.08);
     camera.lookAt(0, 0, 0);
-    void sceneOpacityStart;
   });
   return null;
 }
