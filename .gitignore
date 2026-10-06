@@ -15,3 +15,6 @@ next-env.d.ts
 
 # env files
 .env*
+
+# wrangler local state
+.wrangler/
